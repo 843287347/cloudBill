@@ -1,0 +1,60 @@
+$color_gray: #d3dedc;
+$color_blue: #92a9bd;
+$color_dark: #7c99ac;
+$color_pink: #ffefef;
+.createBill {
+  position: relative;
+  width: 100%;
+
+  .typeControl {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    .typeControlBut {
+      padding: 10px;
+      width: 40%;
+      margin: 0 10px;
+      background-color: inherit;
+      cursor: pointer;
+      border: 0;
+      border-bottom: 3px solid rgb(226, 62, 226, 0);
+    }
+    .activateTypeBut {
+      transition: border 1s;
+      border-bottom: 3px solid rgb(226, 62, 226);
+    }
+  }
+
+  .outputBill {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 100%;
+    overflow: auto;
+
+    .outputBillItem {
+      display: inline-block;
+      border-radius: 25%;
+      margin: 5px;
+      border: 0;
+      width: 6em;
+      height: 6em;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $color_gray;
+      }
+      &:visited {
+        border: 0;
+      }
+    }
+
+    .activateBillItem {
+      background-color: $color_blue;
+    }
+  }
+}

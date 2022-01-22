@@ -1,0 +1,46 @@
+$BillHeight: 50px;
+
+.billCard {
+  position: relative;
+  height: $BillHeight;
+  width: 100%;
+  // border-radius: 0.5em;
+  overflow: hidden;
+
+  .icon {
+    float: left;
+    font-size: 2rem;
+    padding: 0px 10px;
+    cursor: pointer;
+  }
+
+  .textInfo {
+    font-size: 0.9em;
+    height: $BillHeight;
+    .kind {
+      font-size: 14px;
+      color: #0e5852;
+      height: $BillHeight / 2;
+      line-height: $BillHeight / 2;
+    }
+    .description {
+      color: gray;
+      line-height: $BillHeight / 2;
+      height: $BillHeight / 2;
+    }
+  }
+
+  .billMoney {
+    float: right;
+    padding-right: 10px;
+    text-align: center;
+    height: $BillHeight;
+    line-height: $BillHeight;
+  }
+
+  .menu {
+    position: absolute;
+    display: block;
+    background-color: khaki;
+  }
+}

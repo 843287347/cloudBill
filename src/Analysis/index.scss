@@ -1,0 +1,22 @@
+.analysis {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+
+  .anaControl {
+    // position: sticky;
+    text-align: center;
+    // height: 50px;
+    z-index: 1;
+  }
+  .line {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+  }
+
+  .pie {
+    width: 100%;
+    background-color: #fff;
+  }
+}

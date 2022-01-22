@@ -1,0 +1,17 @@
+.LoginContainer {
+  width: 100vw;
+  height: 100vh;
+  .LoginForm {
+    padding: 100px 30px;
+    width: 500px;
+    margin: 0 auto;
+    // border: 1px solid black;
+    box-shadow: 5px 5px 15px black;
+    @media screen and (max-width: 600px) {
+      width: 80%;
+    }
+  }
+
+  background: center/cover url(../../public/cool-background.png) no-repeat;
+  background-attachment: fixed;
+}
