@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# CloudBill - 在线记账APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 使用
 
-## Available Scripts
+确保安装了`npm `或`yarn` 和`nodejs`环境
 
-In the project directory, you can run:
+### 安装依赖
 
-### `yarn start`
+`yarn`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+or
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`npm install`
 
-### `yarn test`
+### 本地运行
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`yarn start`
 
-### `yarn build`
+or
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm run dev`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 在线展示
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://cloudbill.web.cloudendpoint.cn/cloudBill
 
-### `yarn eject`
+> 测试账号密码都是：demo2
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<img src="./public/login.png"/>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="./public/billList.png"/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img src="./public/vis.png"/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 参考：
 
-## Learn More
+https://ant.design/components/overview-cn/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+https://reactrouter.com/docs/en/v6/getting-started/tutorial
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://echarts.apache.org/examples/zh/index.html
+
